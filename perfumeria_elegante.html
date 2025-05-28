@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfumería Elegante</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #f3f3f3;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #d63384;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #555;
+        }
+        .banner {
+            background: url('https://images.unsplash.com/photo-1585665106900-fbcd8c87012b') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-shadow: 1px 1px 2px #000;
+        }
+        .banner h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .banner p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .banner button {
+            background-color: #d63384;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .section {
+            padding: 40px;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product {
+            width: 200px;
+            text-align: center;
+            margin: 20px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #f3f3f3;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perfumería Elegante</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Perfumes</a>
+            <a href="#">Ofertas</a>
+            <a href="#">Contacto</a>
+            <a href="#">🛒</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <h2>Encuentra tu aroma ideal ✨</h2>
+        <p>Perfumes originales con hasta 40% de descuento</p>
+        <button>Comprar ahora</button>
+    </div>
+    <div class="section">
+        <h2>Top Perfumes</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1600181954474-b2a5c0f2d81e" alt="Perfume 1">
+                <p>Essence Femme - $59.99</p>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1619623466738-4d8c6c0eeae3" alt="Perfume 2">
+                <p>Lux Men - $49.99</p>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1619603364904-f9a4c94331c4" alt="Perfume 3">
+                <p>Fresh Unisex - $39.99</p>
+                <button>Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        © 2025 Perfumería Elegante | contacto@tuperfumeria.com | +00 123 456 789
+    </footer>
+</body>
+</html>
